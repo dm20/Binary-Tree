@@ -1,6 +1,10 @@
 # JavaScript Binary Tree Implementation
 ## Included in this repo are some Binary Tree traversal methods 
 
+
+
+
+
 ## Run JavaScript on Mac OS X with Rhino
 
 ### 1) Open Terminal and install HomeBrew with the following command: 
