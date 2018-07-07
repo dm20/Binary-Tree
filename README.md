@@ -15,7 +15,9 @@
 ### 4) Enter the following
     rhino programName.js
 
-### Full Rhino details: http://macappstore.org/rhino/
+<a href= "http://macappstore.org/rhino/" >Rhino Details</a>
+
+<a href= "https://brew.sh" >Homebrew Details</a>
 
 
 
