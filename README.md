@@ -10,6 +10,7 @@
     brew install rhino
 
 ### 3) Navigate to the location of your JavaScript File in Terminal
+    cd foldername
 
 ### 4) Enter the following
     rhino programName.js
