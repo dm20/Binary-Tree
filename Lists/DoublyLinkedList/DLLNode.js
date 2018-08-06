@@ -1,5 +1,5 @@
 /**
-* Definition for singly-linked list.
+* Definition for doubly-linked list.
 */
 function ListNode(val) {
   this.val = val;
