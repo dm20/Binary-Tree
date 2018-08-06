@@ -1,6 +1,5 @@
 # JavaScript Binary Tree Implementation
-# -------------------------------------------------------------
-
+---
 ## Run JavaScript on Mac OS X with Rhino
 
 ### 1) Open Terminal and install HomeBrew with the following command: 
