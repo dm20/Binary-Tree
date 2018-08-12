@@ -1,4 +1,4 @@
-# JavaScript Binary Tree Implementation
+# Nodes <3
 ---
 ## Run JavaScript on Mac OS X with Rhino
 
