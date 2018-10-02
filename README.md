@@ -1,5 +1,5 @@
-# Nodes <3
----
+<img src='nodes_pic.png' width = '600px'>
+
 ## Run JavaScript on Mac OS X with Rhino
 
 ### 1) Open Terminal and install HomeBrew with the following command: 
