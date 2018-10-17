@@ -1,3 +1,6 @@
+/*
+* Return the value at this index
+*/
 var get = function(node, index) {
   var count = 0;
   var n = node;
@@ -10,6 +13,9 @@ var get = function(node, index) {
   }
 }
 
+/*
+* Add an element at the specified index
+*/
 var add = function(node, index, item) {
   var count = 0;
   var n = node;
@@ -37,6 +43,9 @@ var add = function(node, index, item) {
 
 }
 
+/*
+* Debug function
+*/
 var printList = function(node) {
 	var n = node
 	while (n != null) {
@@ -54,7 +63,9 @@ function UnrolledListNode(vals, height) {
   this.MAX_LEN = height;
 }
 
-
+/********
+* TESTS *
+*********/
 var n = new UnrolledListNode(['a','b','c'],5)
 n.next = new UnrolledListNode(['d','e','f','g','h'],5)
 n.next.next = new UnrolledListNode(['i','j'],5)
@@ -72,7 +83,6 @@ print("\n")
 print("\nADD:")
 print("add 'item' at index 2")
 add(n,2,'item')
-
 print("add 'word' at index 8")
 add(n,8,'word')
 
