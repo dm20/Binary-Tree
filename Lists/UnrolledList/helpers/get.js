@@ -1,11 +1,11 @@
 var get = function(node, index) {
   var count = 0;
-  n = node;
+  var n = node;
   while (n != null) {
-    if (index < count + node.MAX_LEN) {
+    if (index < count + n.vals.length) {
       return n.vals[index - count]
     }
     count += n.vals.length
+    n = n.next
   }
-  return ""
 }
