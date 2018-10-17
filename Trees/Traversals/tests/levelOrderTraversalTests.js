@@ -1,6 +1,5 @@
 
 // TEST CASE 1
-/*
 var r = new TreeNode(3);
 r.left = new TreeNode(9);
 r.left.left = new TreeNode(1);
@@ -9,7 +8,6 @@ r.right = new TreeNode(20);
 r.right.left = new TreeNode(15)
 r.right.right = new TreeNode(7)
 r.right.right.right = new TreeNode(9)
-*/
 
 // TEST CASE 2
 /*
