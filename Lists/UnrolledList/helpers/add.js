@@ -1,15 +1,14 @@
 var add = function(node, index, item) {
   var count = 0;
-  n = node;
+  var n = node;
   var stop = false;
   
   while (n != null && !stop) {
-    if (index <= count + n.vals.length) {
-      if (n.vals.length < MAX_LEN) {
-        var newVals = []
-        newVals.push(n.vals.slice(0, i - count))
+    if (index < count + n.vals.length) {
+        var newVals = n.vals.slice(0, index - count)
         newVals.push(item)
-        newVals.push(n.vals.slice(i - count,n.vals.length))
+        var ending = n.vals.slice(index - count,n.vals.length)
+        newVals.push(ending)
         if (newVals.length > n.MAX_LEN) {
           n.vals = newVals.slice(0,n.MAX_LEN)
           newNode = new UnrolledListNode(newVals.slice(n.MAX_LEN, newVals.length), n.MAX_LEN)
@@ -20,7 +19,8 @@ var add = function(node, index, item) {
         }
         stop = true
       }
-    }
     count += n.vals.length
+    n = n.next
   }
+
 }
