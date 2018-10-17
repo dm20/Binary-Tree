@@ -1,6 +1,6 @@
 var get = function(node, index) {
   var count = 0;
-  UnrolledListNode n = node;
+  n = node;
   while (n != null) {
     if (index < count + node.MAX_LEN) {
       return n.vals[index - count]
