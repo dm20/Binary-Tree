@@ -18,8 +18,8 @@ var partition = function (arr, low, high) {
 var quickSort = function (arr, low, high) {
 	if (low < high) {
 		index = partition(arr,low,high)
-		quickSort(arr,low,index-1)
-		quickSort(arr,index+1,high)
+		if (low < index-1) quickSort(arr,low,index-1)
+		if (index+1 < high) quickSort(arr,index+1,high)
 	}
 }
 
